@@ -89,5 +89,23 @@ h2 {
 
 #recent-projects img {
     width: 80%;
+    box-shadow: 10px 10px 40px gray;
 
+}
+
+.experience {
+    padding-left: 7%;
+}
+
+.sign-up {
+    display: flex;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.half-width {
+    width: 30%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-left: 5%;
 }
