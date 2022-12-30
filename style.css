@@ -25,6 +25,7 @@ h2 {
 .top-section p {
     color: black;
     font-weight: 200;
+    padding-top: 5%;
     padding-bottom: 5%;
 }
 
@@ -117,10 +118,19 @@ h2 {
 
     padding-left: 5%;
     font-size: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#service-info {
+    border: 5px solid;
+    border-image: linear-gradient(rgb(184, 49, 49), coral);
+    border-image-slice: 1;
+}
+
+#personal-info {
     border: 5px solid;
     border-image: linear-gradient(rgb(159, 75, 159), rgb(211, 56, 118));
     border-image-slice: 1;
-    box-shadow: 10px 10px 40px gray;
 }
 
 .half-width legend {
@@ -134,4 +144,8 @@ h2 {
 .half-width button {
     padding: 7px 20px;
     font-size: 17px;
+}
+
+footer p {
+    text-align: center;
 }
