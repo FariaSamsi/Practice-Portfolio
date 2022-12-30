@@ -11,6 +11,10 @@ h1 {
     font-family: 'Seymour One', sans-serif;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .top-section {
     background-image: linear-gradient(to right, rgb(255, 221, 254), rgb(115, 83, 137));
     display: flex;
@@ -72,4 +76,18 @@ h1 {
     padding-bottom: 3%;
 }
 
-#skill-set {}
+#recent-projects li {
+    font-size: 30px;
+}
+
+#recent-projects {
+    padding-top: 5%;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+#recent-projects img {
+    width: 80%;
+
+}
